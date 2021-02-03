@@ -120,5 +120,7 @@ var isMatch = function (s, p) {
     return nfa.recognize(s)
 }
 
+//参考范文 https://www.jianshu.com/p/48dc319f68f3
+//NFA 图解 http://www.luobotang.cn/nfa/app/
 //测试用例
 console.log(isMatch("ab", "a***********b"));
