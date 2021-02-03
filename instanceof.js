@@ -14,9 +14,9 @@ const myInstanceof = (left, right) => {
 
 class PerSon {
     #name = "wxd"; //私有属性
-    constructor() { }
+    constructor() { } //没有灵魂的一个人
 }
 
-const xw = new PerSon();
+const xw = new PerSon(); //做一个人
 
-console.log(myInstanceof({}, PerSon));
+console.log(myInstanceof({}, PerSon)); //看看是不是个人
