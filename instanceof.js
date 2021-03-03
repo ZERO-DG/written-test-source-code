@@ -12,6 +12,7 @@ const myInstanceof = (left, right) => {
     }
 }
 
+//测试
 class PerSon {
     #name = "wxd"; //私有属性
     constructor() { } //没有灵魂的一个人
